@@ -1,0 +1,9 @@
+pandas>=1.5.0
+cerberus
+pytest==7.3.0
+mypy==1.1.1
+black==23.3.0
+ruff==0.0.260
+pre-commit==3.2.1
+coverage==7.2.7
+pytest-cov
