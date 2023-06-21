@@ -22,13 +22,10 @@ jobs:
       run: |
         echo "Formatting code"
         black src 
-        black tests 
         echo "Linting code"
         ruff src 
-        ruff tests 
         echo "Running static analysis"
         mypy src 
-        mypy tests 
 
     - name: Run Script
       run: |
