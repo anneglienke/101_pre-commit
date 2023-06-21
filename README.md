@@ -51,3 +51,8 @@ python3 src/main.py
 ```
 
 Or just commit to see pre-commit in action!
+</br>
+To skip pre-commit checks, run:
+````
+git commit -m"message" --no-verify
+```
