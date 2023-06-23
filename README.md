@@ -3,13 +3,13 @@ This repository serves as an introduction to [pre-commit](https://pre-commit.com
 
 To achieve this, the repository leverages three key tools:
 
-- [Black](https://pypi.org/project/black/): A highly regarded code formatter that automatically formats code to adhere to a consistent style guide, known as "black formatting." By applying opinionated rules, Black helps ensure that code has a consistent layout, making it easier to read and maintain. 
+- [Black](https://pypi.org/project/black/): automatically formats code to adhere to a consistent style guide, known as "black formatting." It applies opinionated rules, ensuring that code has a consistent layout, making it easier to read and maintain. 
 
-- [Ruff](https://pypi.org/project/ruff/0.0.89/): A comprehensive static code analysis tool that identifies potential issues (such as syntax errors, programming mistakes, style violations, and so on) and provides valuable suggestions for improving code quality.
+- [Ruff](https://pypi.org/project/ruff/0.0.89/): identifies potential issues (such as syntax errors, programming mistakes, style violations, and so on) and provides valuable suggestions for improving code quality.
 
-- [Mypy](https://mypy.readthedocs.io/en/stable/): A powerful static type checker for Python that helps catch type-related bugs and provides increased clarity and reliability to your code.
+- [Mypy](https://mypy.readthedocs.io/en/stable/): checks for type-related bugs and provides increased clarity and reliability to the code.
 
-By combining these tools with pre-commit, you can seamlessly integrate them into your development workflow. This enables automatic code formatting, thorough static analysis, and type checking, ensuring that your codebase meets the highest standards of quality and maintainability.
+By combining these tools with pre-commit, you can seamlessly integrate them into your development workflow. This enables automatic code formatting, linting, static analysis, and type checking, ensuring that your codebase meets the highest standards of quality and maintainability.
 
 
 </br>
